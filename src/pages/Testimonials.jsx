@@ -2,6 +2,7 @@
 
 export default function Testimonials() {
     return (
+        // Embed a widged or use reviews chosen by me??
         <>
             <h1>Testimonials</h1>
             <a
