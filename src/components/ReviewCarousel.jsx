@@ -1,7 +1,7 @@
 
 export default function ReviewCarousel({ reviews }) {
     return (
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center ">
             <div className="grid gap-8 md:grid-cols-3 max-w-5xl">
                 {reviews.map((review) => (
                     <div key={review.id} className="bg-white p-6 shadow-md rounded-lg">

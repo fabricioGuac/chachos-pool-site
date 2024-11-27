@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { Link } from "react-router-dom";
 import ReviewCarousel from "../components/ReviewCarousel";
-import ServicesCarousel from "../components/ServicesCarousel";
+import CardGrid from "../components/CardGrid";
 import useIsVisible from "../hooks/useIsVisible";
 
 export default function Homepage() {
@@ -50,7 +50,7 @@ export default function Homepage() {
                 className={`transition-opacity ease-in duration-700 ${areServicesVisible ? 'opacity-100' : 'opacity-0'}`}>
                     <div className="container mx-auto text-center">
                         <h2 className="text-3xl font-bold mb-8">Our services</h2>
-                        <ServicesCarousel services={services} />
+                        <CardGrid items={services} />
                         <Link 
                         to='/services'
                         className="mt-8 inline-block px-6 py-3 bg-cyan-900 text-white rounded-lg hover:bg-cyan-700 transition duration-300 ">
