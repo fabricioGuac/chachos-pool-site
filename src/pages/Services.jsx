@@ -31,7 +31,7 @@ export default function Services() {
                     >
                     <div className="container mx-auto flex flex-col md:flex-row items-center md:items-start">
 
-                        <div className="md:w-1/2 text-center md:text-left px-6 ml-40">
+                        <div className="md:w-1/2 text-center md:text-left px-6 lg:ml-40">
                             <h2 className="text-3xl font-bold mb-8">Pool Cleaning</h2>
                             <ul className="list-disc list-inside space-y-4 text-gray-600">
                                 <li><span className="font-bold text-gray-800">Debris Removal:</span> Thorough skimming to keep your pool spotless.</li>
@@ -62,7 +62,7 @@ export default function Services() {
                     <div className="container mx-auto flex flex-col md:flex-row items-center md:items-start">
 
                         
-                    <div className="md:w-1/2 flex justify-center mt-8 md:mt-0">
+                    <div className="md:w-1/2 flex justify-center mb-8 md:mt-0">
                             <img src="https://fakeimg.pl/400x400/?text=Supplies" alt="Why Choose Us" className="w-full max-w-sm rounded-lg shadow-md" />
                         </div>
 
@@ -91,7 +91,7 @@ export default function Services() {
                     className={`transition-all ease-in-out duration-700 ${isMantainanceVisible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-32"}`}>
                     <div className="container mx-auto flex flex-col md:flex-row items-center md:items-start">
 
-                        <div className="md:w-1/2 text-center md:text-left px-6 ml-40">
+                        <div className="md:w-1/2 text-center md:text-left px-6 lg:ml-40">
                             <h2 className="text-3xl font-bold mb-8">Pool Mantainance</h2>
                             <ul className="list-disc list-inside space-y-4 text-gray-600">
                                 <li><span className="font-bold text-gray-800">Regular Inspections:</span> Ensure equipment runs efficiently.</li>
