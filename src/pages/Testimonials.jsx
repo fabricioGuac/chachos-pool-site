@@ -2,14 +2,14 @@ import ReviewCarousel from "../components/ReviewCarousel";
 
 export default function Testimonials() {
 
-    // Array of mock reviews TODO:Replace them with real reviews
+    // Array of reviews
     const reviews = [
-        { id: 1, name: "John Doe", review: "Fantastic service! My pool has never looked better.", rating: 5 },
-        { id: 2, name: "Jane Smith", review: "Very professional and reliable. Highly recommend!", rating: 5 },
-        { id: 3, name: "Michael Brown", review: "They go above and beyond. Excellent customer service!", rating: 5 },
-        { id: 4, name: "Emily Davis", review: "Quick, efficient, and always friendly. Great work!", rating: 5 },
-        { id: 5, name: "Chris Taylor", review: "Affordable and reliable service. Couldn't be happier!", rating: 4 },
-        { id: 6, name: "Sophia Martinez", review: "My pool parties have never been this enjoyable. Thanks to this team!", rating: 5 },
+        { id: 1, name: "Jose Manuel Mata Uban", review: "Best service in town!", rating: 5 },
+        { id: 2, name: "Nancy Negron", review: "They are great and very respectful. Great job good prices.", rating: 5 },
+        { id: 3, name: "Jorge Perez", review: "Perfect and fast..thanks you", rating: 5 },
+        { id: 4, name: "De los Angeles Flores", review: "Excelente servicio, thanks guys 🙏 los recomiendo 💯", rating: 5 },
+        { id: 5, name: "Maria Lopez", review: "Great service, fast and reliable.", rating: 5 }, // Placeholder
+        { id: 6, name: "Carlos Gutierrez", review: "Really happy with the service. They exceeded my expectations.", rating: 5 } // Placeholder
     ];
 
     return (

@@ -6,11 +6,11 @@ import useIsVisible from "../hooks/useIsVisible";
 
 export default function Homepage() {
 
-    // Array of mock reviews TODO:Replace them with real reviews
+    // Array of real reviews
     const reviews = [
-        { id: 1, name: "John Doe", review: "Fantastic service! My pool has never looked better.", rating: 5 },
-        { id: 2, name: "Jane Smith", review: "Very professional and reliable. Highly recommend!", rating: 5 },
-        { id: 3, name: "Michael Brown", review: "They go above and beyond. Excellent customer service!", rating: 5 },
+        { id: 1, name: "Jose Manuel Mata Uban", review: "Best service in town!", rating: 5 },
+        { id: 2, name: "Nancy Negron", review: "They are great and very respectful. Great job good prices.", rating: 5 },
+        { id: 3, name: "Jorge Perez", review: "Perfect and fast..thanks you", rating: 5 },
     ];
     // Array of services TODO:Replace the images with real ones
     const services = [
